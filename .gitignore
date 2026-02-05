@@ -1,0 +1,79 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# =========================
+# Virtual Environments
+# =========================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Django Specific
+# =========================
+*.log
+local_settings.py
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+
+# Collected static files
+staticfiles/
+
+# User uploaded files
+media/
+
+# Django cache
+.cache/
+
+# =========================
+# Migrations cache only (NOT migrations)
+# =========================
+**/migrations/__pycache__/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+.venv
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# =========================
+# Build Artifacts
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
