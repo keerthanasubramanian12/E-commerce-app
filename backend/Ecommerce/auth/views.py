@@ -40,4 +40,3 @@ class LoginView(APIView):
             return Response({'message': 'Login successful'}, status=200)
         else:
             return Response({'error': 'Invalid email or password'}, status=401)
-
